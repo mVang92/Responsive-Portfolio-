@@ -1,0 +1,184 @@
+body {
+    font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+    margin: auto;
+    /* Under 1080p, this looks great. Anything different, well... */
+    width: 960px;
+}
+
+header {
+    background-color: rgb(100, 100, 100);
+    top: 0;
+    left: 0; /* Begin from the very left of the screen */
+    width: 100%; /* Ignore the 960px body width, stretch across the entire screen */
+    position: absolute;
+    height: 75px;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    color: white;
+    background-color: rgb(175, 175, 175);
+    margin-left: 25%;
+    margin-top: 0px;
+    width: 190px;
+    height: 40px;
+    padding: 17px;
+}
+
+#aboutBox {
+    background: #ffffff;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding: 1em;
+    line-height: 30px; /* adds spaces between lines */
+}
+
+#contactBox {
+    width: 45%;
+    height: 400px;
+    background: #ffffff;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding: 1em;
+    line-height: 30px; /* adds spaces between lines */
+}
+
+#connectBox {
+    float: right;
+    width: 45%;
+    height: 400px;
+    background: #ffffff;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 1em;
+    margin-bottom: 50px;
+    margin-top: -485px;
+}
+
+#portfolioBox {
+    background: #ffffff;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: #dddddd;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding: 1em;
+    height: 525px;
+}
+
+.aboutMe, .contact, .portfolio {
+    color: #4aaaa5;
+    font-size: 28px;
+}
+
+#mainNav {
+    color: white;
+    float: right;
+    margin-top: -65px;
+    margin-right: 25%;
+}
+
+/* Default nav colors */
+#about, #portfolio, #contact {
+    color: white;
+    font-weight: bold;
+    text-decoration: none; /*gets rid of that underline*/
+}
+
+/* Changes colors when the mouse hovers over */
+#about:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer; /* changes mouse arrow to pointing finger */
+}
+
+#portfolio:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#contact:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Changes colors when the mouse clicks */
+#about:active {
+    background-color: #4aaaa5;
+    color: white;
+    text-decoration: none;
+}
+
+#portfolio:active {
+    background-color: #4aaaa5;
+    color: white;
+    text-decoration: none;
+}
+
+#contact:active {
+    background-color: #4aaaa5;
+    color: white;
+    text-decoration: none;
+}
+
+/* Profile picture format */
+#meng {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    margin-right: 40px;
+}
+
+/* Portfolio pictures */
+.pictures {
+    float:left;
+    margin-left: 37px;
+    margin-right: 25px;
+}
+
+.tag {
+    position:relative;
+    bottom: 50px;
+    text-align: center;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    background-color:rgb(156, 156, 156) ;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input {
+    width: 300px;
+}
+
+.message {
+    width: 300px;
+    height: 100px;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: rgb(100, 100, 100);
+    border-top-color: #dddddd;
+    color: white;
+    text-align: center;
+    width: 100%; 
+    left: 0;
+    bottom: 0; /* Keeps the footer at the bottom always */
+}

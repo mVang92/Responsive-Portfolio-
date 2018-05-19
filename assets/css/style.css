@@ -1,8 +1,7 @@
 body {
     font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
     margin: auto;
-    /* Under 1080p, this looks great. Anything different, well... */
-    width: 960px;
+    width: 75%;
 }
 
 h1 {
@@ -200,7 +199,7 @@ footer {
         display: block;
         width: 50%;
         margin: auto;
-        margin-left: 35px;
+        margin-left: 5px;
     }
 
     #mainNav {
@@ -219,6 +218,7 @@ footer {
         text-align: center;
         font-size: 40px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -236,7 +236,7 @@ footer {
         display: block;
         width: 85%;
         margin: auto;
-        margin-left: 35px;
+        margin-left: 50px;
     }
 
 }
@@ -250,13 +250,14 @@ footer {
     .bio {
         font-size: 40px;
         line-height: 50px;
+        width: 90%;
     }
 
     #meng {
         display: block;
         width: 85%;
         margin: auto;
-        margin-left: 35px;
+        margin-left: 50px;
     }
 
 }

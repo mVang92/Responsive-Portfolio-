@@ -232,6 +232,15 @@ footer {
         height: 500px;
     }
 
+    #contactBox {
+        margin-top: -7%;
+        margin-bottom: 9%;
+    }
+
+    #connectBox {
+        margin-top: -57%;
+    }
+
     .pictures {
         margin-left: 28px;
         margin-right: 18px;
@@ -257,6 +266,19 @@ footer {
     #portfolioBox {
         margin-top: -10%;
         height: 750px;
+    }
+
+    #contactBox {
+        margin-bottom: 16%;
+        width: 95%;
+    }
+
+    #connectBox {
+        float: left;
+        height: 100px;
+        width: 95%;
+        margin-top: -15%;
+        margin-bottom: 50px;
     }
 
     .pictures {

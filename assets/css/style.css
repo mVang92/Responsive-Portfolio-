@@ -182,21 +182,27 @@ footer {
     bottom: 0; /* Keeps the footer at the bottom always */
 }
 
-/* Media Queries */
+/* ----Media Queries---- */
+/* Changes things around when the screen width falls to 960px or below */
 @media screen and (max-width: 960px) {
+    /* Main body width */
+    /* As pixels, words do not wrap */
     body {
         width: 95%;
     }
 
+    /* Static sticks the header at the top of the page */
     header {
         position: static;
     }
 
+    /* Paragraphs have a font size of 30, and line spacing of 50 pixels */
     .bio {
         font-size: 30px;
         line-height: 50px;
     }
 
+    /* Formating presentation picture, and it will adjust according to resolution */
     #meng {
         width: 50%;
         margin: auto;
@@ -204,54 +210,64 @@ footer {
         margin-right: 35px;
     }
 
+    /* Positioning navigation links and font size */
     #mainNav {
         font-size: 35px;
         margin-right: 20px;
         margin-top: -73px;
     }
 
+    /* Formating Meng Vang at the top left of the navbar */
     h1 {
         margin-left: 20px;
         font-size: 30px;
         width: 173px;
     }
 
+    /* About me text formatting */
     .aboutMe {
         text-align: center;
         font-size: 30px;
     }
 
+    /* Adjust position of the big white box around bio and picture in index page*/
     #aboutBox {
         margin-top: -7%;
         margin-bottom: 10%;
     }
 
+    /* Adjust position of the big white box on the portfolio page */
     #portfolioBox {
         margin-top: -7%;
         margin-bottom: 8%;
         height: 500px;
     }
 
+    /* Adjust position of the big white box around contact info */
     #contactBox {
         margin-top: -7%;
         margin-bottom: 9%;
     }
 
+    /* Adjust position of you-know-what around connection links */
     #connectBox {
         margin-top: -57%;
     }
 
+    /* Formatting pictures to size on the portfolio page */
     .pictures {
         margin-left: 28px;
         margin-right: 18px;
     }
 
+    /* Formatting connection links on the contact page */
     .contactLink {
         margin-left: 10px;
         margin-right: 5px;
     }
 }
 
+/* Changes things around when the screen width falls to 768px or below */
 @media screen and (max-width: 768px) {
     .bio {
         font-size: 40px;
@@ -283,7 +299,7 @@ footer {
         height: 175px;
         width: 95%;
         margin-top: -15%;
-        margin-bottom: 100px;
+        margin-bottom: 75px;
     }
 
     .pictures {
@@ -297,6 +313,7 @@ footer {
     }
 }
 
+/* Changes things around when the screen width falls to 640px or below */
 @media screen and (max-width: 640px) {
     #meng {
         margin-left: 65px;
